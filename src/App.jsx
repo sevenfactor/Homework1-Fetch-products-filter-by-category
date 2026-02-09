@@ -8,7 +8,6 @@ function App() {
       </h1>
       <hr className="border-gray-300 my-4" />
       
-      {/* ตัว Container จะรวบรวมทั้งปุ่ม Filter และรายการสินค้าไว้ด้วยกัน */}
       <ProductContainer />
     </div>
   )
