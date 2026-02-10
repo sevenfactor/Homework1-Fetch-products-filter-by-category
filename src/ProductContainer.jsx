@@ -9,7 +9,7 @@ function ProductContainer() {
 
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
-
+  
   useEffect(() => {
     setLoading(true)
     fetch('https://fakestoreapi.com/products')
@@ -70,3 +70,4 @@ function ProductContainer() {
 }
 
 export default ProductContainer
+
